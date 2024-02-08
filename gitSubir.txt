@@ -1,0 +1,28 @@
+`git init`: Inicializa un nuevo repositorio Git en un directorio, creando un nuevo 
+subdirectorio `.git` que contiene todos los archivos necesarios para el control de 
+versiones.
+`git clone <url>`: Clona un repositorio Git existente desde una URL remota a tu 
+máquina local, creando una copia local del repositorio completo con su historial de 
+cambios.
+`git add <archivo>`: Agrega cambios de archivos específicos al área de preparación 
+para ser incluidos en el próximo commit. También puedes usar `git add .` para 
+agregar todos los archivos modificados y nuevos.
+`git commit -m "mensaje"`: Confirma los cambios agregados al área de 
+preparación, creando un nuevo commit en la historia del repositorio con un mensaje 
+descriptivo que indica los cambios realizados.
+`git status`: Muestra el estado actual del repositorio, incluyendo los archivos 
+modificados, los archivos en el área de preparación y cualquier otro estado 
+relevante.
+`git branch`: Lista todas las ramas presentes en el repositorio. También puedes 
+utilizar `git branch <nombre_rama>` para crear una nueva rama o `git branch -d 
+<nombre_rama>` para eliminar una rama.
+`git checkout <rama>`: Cambia el estado del directorio de trabajo para que coincida 
+con la rama especificada. También puedes utilizar este comando para crear una 
+nueva rama y cambiar a ella al mismo tiempo con `git checkout -b <nueva_rama>`.
+`git pull`: Descarga los cambios desde un repositorio remoto y los fusiona 
+automáticamente en la rama actual de tu repositorio local.
+`git push`: Sube los cambios locales confirmados a un repositorio remoto. Por lo 
+general, se usa `git push <repositorio_remoto> <rama_local>:<rama_remota>` para 
+especificar la rama local y remota.
+ ● `git log`: Muestra el historial de commits del repositorio, incluyendo información 
+como el autor del commit, la fecha y la descripción del mensaje del commit
