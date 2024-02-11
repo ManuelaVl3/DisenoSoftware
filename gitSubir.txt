@@ -27,5 +27,5 @@ especificar la rama local y remota.
 `git log`: Muestra el historial de commits del repositorio, incluyendo información 
 como el autor del commit, la fecha y la descripción del mensaje del commit
 `git reset`: se utiliza para deshacer los cambios en su directorio de trabajo y volver 
-a una conformacion especifica mientras se descartan todas las confirmaciones realizadas
-despues de esa
+a una conformación específica mientras se descartan todas las conformaciones realizadas
+después de esa
